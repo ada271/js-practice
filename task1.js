@@ -12,7 +12,7 @@ let seconds = prompt('Please enter seconds');
 let minutes = Math.round(seconds / 60);
 let seconds2 = seconds%60;
 
-// console.log(`${seconds} seconds contains ${minutes} minutes and ${seconds2} seconds`);
+console.log(`${seconds} seconds contains ${minutes} minutes and ${seconds2} seconds`);
 
 //task2 fahrenheit to celsius conversion
 
