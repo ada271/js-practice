@@ -70,4 +70,27 @@ console.log(a)
 
 // task7
 
+let num = parseInt(prompt("Enter a number"))
+let fact = 1;
+
+for (let i = 1; i <= num; i++) {
+    fact = i * fact;
+}
+console.log(fact)
+
+//task8
+
+let x = parseInt(prompt("Enter a value"));
+let y = parseInt(prompt("Enter a value"));
+
+if (x >0 && y < 0){
+    console.log(4 * x + 2 * y + 4);
+} else if (x > 0 && y == 0) {
+    console.log(2 * x - y + 3);
+} else if(x < 0 && y > 0) {
+    console.log(3 * x + 4 * y + 3);
+} else{
+    console.log("Invalid values for this function!!!")
+}
+
 
