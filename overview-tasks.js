@@ -26,16 +26,24 @@
 
 //task3 grade calc
 
-let gradeMidterm = parseInt(prompt("Enter your midterm grade."))
-let gradeFinal = parseInt(prompt("Enter your final grade"))
+// let gradeMidterm = parseInt(prompt("Enter your midterm grade."))
+// let gradeFinal = parseInt(prompt("Enter your final grade"))
 
-let totalGrade = (gradeMidterm * 40 / 100) + (gradeFinal * 60 / 100)
+// let totalGrade = (gradeMidterm * 40 / 100) + (gradeFinal * 60 / 100)
 
-if (totalGrade >= 50 && totalGrade <=100) {
-    alert("Congratulations, you've passed this course")
+// if (totalGrade >= 50 && totalGrade <=100) {
+//     alert("Congratulations, you've passed this course")
 
-} else if((gradeFinal < 0 || gradeFinal > 100) || (gradeMidterm < 0 || gradeMidterm > 100)) {
-    alert("Please enter valid grades!")
-} else {
-    alert("See you again next semester :D")
+// } else if((gradeFinal < 0 || gradeFinal > 100) || (gradeMidterm < 0 || gradeMidterm > 100)) {
+//     alert("Please enter valid grades!")
+// } else {
+//     alert("See you again next semester :D")
+// }
+
+//task4 for loop
+
+let name = ("Ada") 
+
+for (let i = 0; i <5; i++) {
+    document.write(name)
 }
