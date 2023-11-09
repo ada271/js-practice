@@ -70,27 +70,51 @@ console.log(a)
 
 // task7
 
-let num = parseInt(prompt("Enter a number"))
-let fact = 1;
+// let num = parseInt(prompt("Enter a number"))
+// let fact = 1;
 
-for (let i = 1; i <= num; i++) {
-    fact = i * fact;
-}
-console.log(fact)
+// for (let i = 1; i <= num; i++) {
+//     fact = i * fact;
+// }
+// console.log(fact)
 
 //task8
 
-let x = parseInt(prompt("Enter a value"));
-let y = parseInt(prompt("Enter a value"));
+// let x = parseInt(prompt("Enter a value"));
+// let y = parseInt(prompt("Enter a value"));
 
-if (x >0 && y < 0){
-    console.log(4 * x + 2 * y + 4);
-} else if (x > 0 && y == 0) {
-    console.log(2 * x - y + 3);
-} else if(x < 0 && y > 0) {
-    console.log(3 * x + 4 * y + 3);
-} else{
-    console.log("Invalid values for this function!!!")
+// if (x >0 && y < 0){
+//     console.log(4 * x + 2 * y + 4);
+// } else if (x > 0 && y == 0) {
+//     console.log(2 * x - y + 3);
+// } else if(x < 0 && y > 0) {
+//     console.log(3 * x + 4 * y + 3);
+// } else{
+//     console.log("Invalid values for this function!!!")
+// }
+
+// task9 grade conversion from 0-100 to letters
+
+let score = parseInt(prompt("Please enter your score"))
+
+if (score <= 100 && score >= 80){
+    console.log(`With your ${score} points you get AA!`);
+
+} else if(score < 80 && score >= 71){
+    console.log(`With your ${score} points you get BA!`);
+} else if(score < 71 && score >= 63){
+    console.log(`With your ${score} points you get BB!`);
+} else if(score < 63 && score >= 55){
+    console.log(`With your ${score} points you get CB!`);
+} else if(score < 55 && score >= 50){
+    console.log(`With your ${score} points you get CC!`);
+} else if(score < 50 && score >= 45){
+    console.log(`With your ${score} points you get DC!`);
+} else if(score < 45 && score >= 35){
+    console.log(`With your ${score} points you get DD!`);
+} else if(score < 35 && score >= 0){
+    console.log(`With your ${score} points you get FF!`);
+} else {
+    console.log("Please enter a valid grade!")
 }
-
 
