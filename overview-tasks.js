@@ -45,5 +45,29 @@
 let name = ("Ada") 
 
 for (let i = 0; i <5; i++) {
-    document.write(name)
+    console.log(name)
 }
+
+// task5 
+// let total = 0;
+// for (let i = 1; 1 < 100; i++) {
+//     total += i;
+// }
+// console.log(total)
+
+//task6
+
+let a = "";
+
+for (let i = 1; i <= 10; i++) {
+    if (i == 10) {
+        a = a+i    
+    } else {
+        a = a+i+","    
+    }
+}
+console.log(a)
+
+// task7
+
+
