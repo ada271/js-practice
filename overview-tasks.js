@@ -153,13 +153,34 @@ console.log(a)
 
 //task 12
 
-let numEntered = parseInt(prompt("Enter a number"));
-let multipResult = 1;
+// let numEntered = parseInt(prompt("Enter a number"));
+// let multipResult = 1;
 
-while (numEntered !== 0) {
+// while (numEntered !== 0) {
     
-    multipResult = multipResult * numEntered;
-    numEntered = parseInt(prompt("Enter a number"));
-}
-console.log(multipResult)
+//     multipResult = multipResult * numEntered;
+//     numEntered = parseInt(prompt("Enter a number"));
+// }
+// console.log(multipResult)
 
+//task 13
+
+let enteredInt = parseInt(prompt("Please enter a number"))
+let primeNums = ""
+
+for (let i = 2; i <= enteredInt; i++){
+
+    let isPrime = true;
+
+    for (let j =2; j < i; j++) {
+        if(i % j == 0) {
+            isPrime = false;
+            break
+        }
+    }
+
+    if (isPrime == true) {
+        primeNums = primeNums + i + ","
+    }
+}
+console.log(primeNums)
