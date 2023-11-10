@@ -131,22 +131,35 @@ console.log(a)
 
 //task 11 hot&cold
 
-let compNum = parseInt(Math.random() * 101);
-console.log(compNum);
-let userGuess = -1;
-let guessCount = 0;
-while (compNum != userGuess) {
+// let compNum = parseInt(Math.random() * 101);
+// console.log(compNum);
+// let userGuess = -1;
+// let guessCount = 0;
+// while (compNum != userGuess) {
     
-    userGuess = parseInt(prompt("Guess a number"));
-    guessCount++;
+//     userGuess = parseInt(prompt("Guess a number"));
+//     guessCount++;
     
-    if(compNum == userGuess) {
-        console.log("You won!");
-        console.log(`Attempts : ${guessCount}`);
+//     if(compNum == userGuess) {
+//         console.log("You won!");
+//         console.log(`Attempts : ${guessCount}`);
     
-    } else if (userGuess < compNum) {
-        console.log("Guess higher!");
-    } else {
-        console.log("Guess lower");
-    }
+//     } else if (userGuess < compNum) {
+//         console.log("Guess higher!");
+//     } else {
+//         console.log("Guess lower");
+//     }
+// }
+
+//task 12
+
+let numEntered = parseInt(prompt("Enter a number"));
+let multipResult = 1;
+
+while (numEntered !== 0) {
+    
+    multipResult = multipResult * numEntered;
+    numEntered = parseInt(prompt("Enter a number"));
 }
+console.log(multipResult)
+
