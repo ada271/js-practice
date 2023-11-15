@@ -180,7 +180,7 @@ for (let i = 2; i <= enteredInt; i++){
     }
 
     if (isPrime == true) {
-        primeNums = primeNums + i + ","
+        primeNums = primeNums + i + " "
     }
 }
 console.log(primeNums)
